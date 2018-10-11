@@ -7,7 +7,7 @@ export class NavigationService {
 
   activatedComponentSubject = new Subject<string>();
 
-  navigationData(component:string) {
+  navigationData(component:any) {
     this.activatedComponentSubject.next(component);
   }
 }

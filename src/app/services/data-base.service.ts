@@ -94,7 +94,7 @@ export class DataBaseService {
     
     public updateConsultant(updateData:object[], id:number){
         for(var i= 0; i < updateData.length;i++){
-            let keyChanged:string = Object.getOwnPropertyNames(updateData[i]);
+            let keyChanged = Object.getOwnPropertyNames(updateData[i])[0];
             this.consultants[id-1][keyChanged] = updateData[i][keyChanged];
             this.emitConsultants(this.consultants); 
         }

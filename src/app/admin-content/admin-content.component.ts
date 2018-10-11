@@ -15,7 +15,8 @@ export class AdminContentComponent implements OnInit {
   }
   
   public routerOutletActivate(){
-     this.navigation.navigationData(this.route.children[0].component.name);  
+    let componentName = this.route.children[0].component.toString().split(" ")[1].replace('(databaseService)', '');
+    this.navigation.navigationData(componentName);  
   }
 
 }
