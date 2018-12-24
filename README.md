@@ -14,27 +14,28 @@ It's an application based on the framwork Angular's 6 version.
 
 ----FUNCTIONALITIES----------------------
 
-* Home:
+---- Home:
 - Click on consultant to see details
 
-* Consultant details
+---- Consultant details
 - See and edit consultants attributes
--> If the room is already full a message is displayed asking to change the room 
+-> (If the room is already full a message is displayed asking to change the room) 
 
-* Manage consultants:
+---- Manage consultants:
 - Click on column label to order the list 
 - Click on consultant to see details
 - Add consultant with the "+" at the end of the list
 - Delete consultant with the "x" beside the consultant
 
-* Add Consultant
--> Firstname and Lastname are required (no defauts values)
--> If the room is already full a message is displayed asking to change the room
+---- Add Consultant
+- Edit new consultants attributes
+-> (Firstname and Lastname are required (no defauts values))
+-> (If the room is already full a message is displayed asking to change the room)
 
-* Manage Room
-- Edit room properties (name and capacity)
+---- Manage Room
+- Edit room properties (names and capacities)
 - Add room with the "+" at the end of the list
 - Delete room with the "x" beside the room
--> A room can't have a capacity inferior to the number of consultants already in it 
--> The capacity number must bee between 1 and 100
--> Delete a room delete the consultants associated to it (a message is displayed to warn it)
+-> (A room can't have a capacity inferior to the number of consultants already in it)
+-> (The capacity number must bee between 1 and 100)
+-> (Delete a room delete the consultants associated to it (a message is displayed to warn it))
